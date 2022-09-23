@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 30px;
+}
+li {
+  padding-bottom: 30px;
+}
+.listfirstpage {
+  display: flex;
+}
+.backgorund {
+  background-color: #216abe;
+  width: 100%;
+  height: 100wh;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 100px;
+}
+.backgorund.display-none {
+  background-color: #216abe;
+  width: 100%;
+  height: 100wh;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 100px;
+}
+.header {
+  background-color: #216abe;
+  width: 100%;
+  height: 200px;
+}
+.bars {
+  position: relative;
+  float: left;
+  color: white;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.mglass {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  float: right;
+}
+.headerpeople {
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  float: left;
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.button {
+  margin: 0;
+  position: fixed;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button1 {
+  text-align: center;
+  background-color: #226bbe;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+  padding: 15px 90px;
+  border: 1px solid #226bbe;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.pname {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.pemail {
+  font-family: sans-serif;
+  color: gray;
+}
+
+.peye {
+  float: right;
+  margin-right: 20px;
+}
+
+.pimg {
+  height: 80px;
+  width: 80px;
+  margin: 0;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #888888;
+}
+
+.param {
+  padding-top: 15px;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding-bottom: 22px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.data {
+  float: right;
+  display: flex;
+  padding-right: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.page2 li {
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+  color: gray;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.whitetxt1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+.whitetxt2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 426px) {
+  ul {
+    padding-inline-start: 0px;
+  }
+  .button1 {
+    padding: 10px 30px;
+  }
+}
