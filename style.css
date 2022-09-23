@@ -141,7 +141,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .whitetxt1 {
   display: flex;
@@ -155,6 +155,7 @@ li {
   align-items: center;
   justify-content: center;
   color: whitesmoke;
+  height: 1px;
 }
 
 @media screen and (max-width: 426px) {
@@ -163,5 +164,27 @@ li {
   }
   .button1 {
     padding: 10px 30px;
+  }
+  .pimg {
+    width: 55px;
+    height: 55px;
+  }
+  .param {
+    padding-top: 10px;
+    padding-top: 13px;
+    margin-top: 0;
+  }
+  li {
+    padding-bottom: 20px;
+  }
+  .headerpeople {
+    font-size: 25px;
+    padding-top: 140px;
+  }
+  .mglass {
+    font-size: 20px;
+  }
+  .bars {
+    font-size: 20px;
   }
 }
